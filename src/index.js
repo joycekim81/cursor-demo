@@ -1,5 +1,4 @@
 import { getValidEmails } from './email.js';
+import { startServer } from './server.js';
 
-console.log('hello cursor');
-
-export { getValidEmails };
+export { getValidEmails, startServer };
